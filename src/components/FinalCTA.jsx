@@ -34,7 +34,7 @@ export default function FinalCTA() {
         <motion.p className={styles.sub} variants={rise}>
           For SGA Junior Council — Because your class deserves better.
         </motion.p>
-        <motion.a href="#" className={styles.cta} variants={rise}>
+        <motion.a href="https://forsyth.instructure.com/courses/149132/grades" target="_blank" rel="noopener noreferrer" className={styles.cta} variants={rise}>
           MAKE YOUR VOTE COUNT →
         </motion.a>
         <motion.p className={styles.url} variants={rise}>votejameswatson.com</motion.p>
