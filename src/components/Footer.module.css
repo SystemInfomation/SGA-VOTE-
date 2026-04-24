@@ -1,0 +1,35 @@
+.footer {
+  background: var(--black);
+  position: relative;
+}
+
+.goldLine {
+  height: 1px;
+  background: var(--gold);
+  opacity: 0.5;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left, .right {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--white-40);
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .inner {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 1.25rem 1.5rem;
+  }
+}
