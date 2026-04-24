@@ -37,7 +37,7 @@ export default function About() {
               More Than A Vote —<br />A Movement
             </motion.h2>
             <motion.p className={styles.body} variants={slideLeft}>
-              I'm James Watson, a junior who genuinely cares about making our class experience
+              I'm James Watson, a rising junior who genuinely cares about making our class experience
               unforgettable. I've seen so much potential in our class — and I'm ready to step up
               and help us reach it.
             </motion.p>
