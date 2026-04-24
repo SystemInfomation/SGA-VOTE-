@@ -6,7 +6,7 @@ const cards = [
   {
     num: '01',
     title: 'Student Voice, Amplified',
-    desc: 'Monthly open forums where your ideas go directly to administration. No more shouting into the void.',
+    desc: 'Monthly open forums where your ideas go directly to administration — because every great idea deserves to be heard.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <path d="M4 6h20M4 12h14M4 18h10" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
@@ -17,8 +17,8 @@ const cards = [
   },
   {
     num: '02',
-    title: 'Junior Events That Actually Slap',
-    desc: "Better prom planning, class trips that are actually fun, and events you'll remember forever.",
+    title: 'Unforgettable Junior Events',
+    desc: 'Incredible prom planning, exciting class trips, and epic experiences that will create memories to last a lifetime.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <path d="M14 4l2.5 7.5H24l-6.5 4.7 2.5 7.5L14 19l-6 4.7 2.5-7.5L4 11.5h7.5L14 4z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
@@ -27,8 +27,8 @@ const cards = [
   },
   {
     num: '03',
-    title: 'Mental Health Matters',
-    desc: 'Push for dedicated junior counseling hours and real stress-relief resources during exam seasons.',
+    title: 'Wellness & Thriving',
+    desc: 'Dedicated junior counseling hours and uplifting wellness resources so every student can feel their best all year long.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <path d="M14 22s-8-5.5-8-11a8 8 0 0116 0c0 5.5-8 11-8 11z" stroke="currentColor" strokeWidth="1.5"/>
@@ -38,8 +38,8 @@ const cards = [
   },
   {
     num: '04',
-    title: 'Transparent Leadership',
-    desc: "Weekly SGA updates posted publicly. You deserve to know what's happening with your student government.",
+    title: 'Open & Honest Leadership',
+    desc: 'Weekly SGA updates shared publicly so you stay connected, informed, and proud of your student government.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <rect x="4" y="8" width="20" height="16" rx="2" stroke="currentColor" strokeWidth="1.5"/>
@@ -50,8 +50,8 @@ const cards = [
   },
   {
     num: '05',
-    title: 'Study Resources',
-    desc: 'Negotiate better access to tutoring, study halls, and academic support for every junior who needs it.',
+    title: 'Academic Excellence',
+    desc: 'Expanded access to tutoring, study halls, and academic support to help every junior reach their full potential.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <path d="M6 4h12l6 6v14H6V4z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
@@ -62,8 +62,8 @@ const cards = [
   },
   {
     num: '06',
-    title: 'Campus Culture',
-    desc: "More junior class pride, better school spirit initiatives, and a community you're proud to be part of.",
+    title: 'A Thriving Campus Culture',
+    desc: 'Celebrating junior class pride, energizing school spirit, and building a vibrant community you love being part of.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <path d="M14 6C10.7 6 8 8.7 8 12c0 4 6 10 6 10s6-6 6-10c0-3.3-2.7-6-6-6z" stroke="currentColor" strokeWidth="1.5"/>
@@ -86,7 +86,7 @@ export default function Platform() {
           transition={{ duration: 0.7 }}
         >
           <p className={styles.label}>THE PLATFORM</p>
-          <h2 className={styles.headline}>What I&#39;ll Fight For</h2>
+          <h2 className={styles.headline}>What I&#39;ll Champion</h2>
         </motion.div>
 
         <div className={styles.grid}>
