@@ -9,7 +9,7 @@ const quotes = [
     role: 'Junior',
   },
   {
-    text: "If anyone can make SGA feel relevant again, it's James. He's been talking about this for years.",
+    text: "If anyone can take SGA to the next level, it's James. He's been talking about this for years.",
     author: 'Destiny R.',
     role: 'Junior',
   },

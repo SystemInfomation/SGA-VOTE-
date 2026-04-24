@@ -38,16 +38,16 @@ export default function About() {
             </motion.h2>
             <motion.p className={styles.body} variants={slideLeft}>
               I'm James Watson, a junior who genuinely cares about making our class experience
-              unforgettable. I've seen what happens when student voices go unheard — and I'm done
-              watching from the sidelines.
+              unforgettable. I've seen so much potential in our class — and I'm ready to step up
+              and help us reach it.
             </motion.p>
             <motion.p className={styles.body} variants={slideLeft}>
               SGA Junior Council isn't just a title to me. It's a platform. A microphone.
-              A chance to turn our collective frustration into real, lasting change.
+              A chance to channel our energy and enthusiasm into real, lasting impact.
             </motion.p>
             <motion.p className={styles.body} variants={slideLeft}>
-              I'm not promising you the moon. I'm promising you I'll show up, speak up,
-              and fight for every single one of us.
+              I'm promising you I'll show up, speak up,
+              and stand up for every single one of us.
             </motion.p>
           </div>
         </motion.div>

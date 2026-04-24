@@ -32,7 +32,7 @@ export default function FinalCTA() {
           <motion.span className={styles.watson} variants={rise}>WATSON</motion.span>
         </div>
         <motion.p className={styles.sub} variants={rise}>
-          For SGA Junior Council — Because your class deserves better.
+          For SGA Junior Council — Because your class deserves the absolute best.
         </motion.p>
         <motion.a href="https://forsyth.instructure.com/courses/149132/grades" target="_blank" rel="noopener noreferrer" className={styles.cta} variants={rise}>
           MAKE YOUR VOTE COUNT →

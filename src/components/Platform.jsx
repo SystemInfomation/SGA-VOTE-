@@ -6,7 +6,7 @@ const cards = [
   {
     num: '01',
     title: 'Student Voice, Amplified',
-    desc: 'Monthly open forums where your ideas go directly to administration. No more shouting into the void.',
+    desc: 'Monthly open forums where your ideas go directly to administration. Your voice will be heard loud and clear.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <path d="M4 6h20M4 12h14M4 18h10" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
@@ -86,7 +86,7 @@ export default function Platform() {
           transition={{ duration: 0.7 }}
         >
           <p className={styles.label}>THE PLATFORM</p>
-          <h2 className={styles.headline}>What I&#39;ll Fight For</h2>
+          <h2 className={styles.headline}>What I&#39;ll Champion</h2>
         </motion.div>
 
         <div className={styles.grid}>

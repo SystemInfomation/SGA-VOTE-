@@ -48,7 +48,7 @@ export default function Hero() {
         />
 
         <motion.p className={styles.tagline} variants={fadeIn}>
-          A New Voice. A Bold Vision. A Better Junior Year.
+          A New Voice. A Bold Vision. The Best Junior Year Yet.
         </motion.p>
 
         <motion.div className={styles.buttons} variants={fadeIn}>
