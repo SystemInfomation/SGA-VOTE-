@@ -1,0 +1,166 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--black);
+}
+
+.watermark {
+  position: absolute;
+  right: -0.05em;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(180px, 22vw, 320px);
+  font-weight: 900;
+  color: rgba(201, 168, 76, 0.07);
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+  line-height: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  padding: 0 2rem;
+  text-align: left;
+}
+
+.overline {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.headline {
+  margin-bottom: 1.5rem;
+}
+
+.line1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(64px, 9vw, 120px);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--white);
+  line-height: 1;
+  display: block;
+}
+
+.line2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(72px, 10vw, 140px);
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 2px var(--gold);
+  line-height: 1;
+  display: block;
+}
+
+.line3 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(44px, 6vw, 80px);
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.1;
+  display: block;
+}
+
+.divider {
+  height: 2px;
+  width: 180px;
+  background: var(--gold);
+  margin: 2rem 0;
+  transform-origin: left;
+}
+
+.tagline {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(16px, 2vw, 22px);
+  color: var(--white-70);
+  margin-bottom: 2.5rem;
+  line-height: 1.5;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  padding: 1rem 2.2rem;
+  background: var(--gold);
+  color: var(--black);
+  border-radius: 4px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: inline-block;
+}
+
+.btnPrimary:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 28px var(--gold-glow), 0 0 60px var(--gold-dim);
+}
+
+.btnSecondary {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  padding: 1rem 2.2rem;
+  border: 1.5px solid var(--white);
+  color: var(--white);
+  border-radius: 4px;
+  transition: background 0.3s, color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btnSecondary:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.btnSecondary:hover .arrow {
+  transform: translateX(4px);
+}
+
+.scrollIndicator {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  z-index: 2;
+  animation: bounce-chevron 1.6s ease-in-out infinite;
+}
+
+.chevron {
+  font-size: 2rem;
+  color: var(--gold);
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .content { text-align: center; }
+  .buttons { justify-content: center; }
+  .divider { margin: 1.5rem auto; }
+}

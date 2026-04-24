@@ -1,0 +1,97 @@
+.section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--black);
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 2rem;
+}
+
+.overline {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  display: block;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.vote {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(56px, 8vw, 90px);
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1;
+  display: block;
+}
+
+.james {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(68px, 9vw, 110px);
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 2px var(--gold);
+  line-height: 1;
+  display: block;
+}
+
+.watson {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(56px, 8vw, 90px);
+  font-weight: 900;
+  color: var(--gold);
+  line-height: 1;
+  display: block;
+}
+
+.sub {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(15px, 2vw, 18px);
+  color: var(--white-70);
+  margin-bottom: 2.5rem;
+}
+
+.cta {
+  display: inline-block;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  padding: 1.1rem 2.8rem;
+  border-radius: 4px;
+  color: var(--black);
+  background: linear-gradient(90deg, var(--gold) 0%, #e8c66a 30%, var(--gold) 60%, #e8c66a 100%);
+  background-size: 300% 100%;
+  animation: shimmer 2.5s linear infinite;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 1.5rem;
+}
+
+.cta:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 32px var(--gold-glow);
+}
+
+.url {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--white-40);
+  letter-spacing: 0.1em;
+  display: block;
+}
